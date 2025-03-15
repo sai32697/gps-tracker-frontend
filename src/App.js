@@ -1,10 +1,11 @@
 import React from "react";
-import Home from "./pages/Home";
+import BusMap from "./components/BusMap";
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <h2 style={{ textAlign: "center" }}>🚍 Live Bus Tracker</h2>
+      <BusMap />
     </div>
   );
 };
